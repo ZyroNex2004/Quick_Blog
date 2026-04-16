@@ -21,7 +21,6 @@ app.get('/', (req, res) => {
 
 app.use('/api/admin', adminRouter)
 // Routes
-app.get('/', (req, res) => res.send("API is Working"))
 app.use('/api/admin', adminRouter)
 app.use('/api/blog', blogRouter)
 
