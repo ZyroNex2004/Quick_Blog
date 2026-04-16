@@ -1,0 +1,10 @@
+client/node_modules
+server/node_modules
+
+# env files
+.env
+client/.env
+server/.env
+
+// npm run server - server
+// npm run dev - client
